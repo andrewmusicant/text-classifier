@@ -89,7 +89,7 @@ if (!browserSupportFileUpload()) {
             var csvData = event.target.result;
             data = csvData;
             if (data && data.length > 0) {
-              alert('Imported -' + data.length + '- rows successfully!');
+              alert('Imported -' + data.length + '- characters successfully!');
               document.getElementById("textArea").value += data;
             } else {
                 alert('No data to import!');
